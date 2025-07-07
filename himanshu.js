@@ -4,3 +4,15 @@ console.log(himanshu);
 
 console.log("Another commit....");
 
+const user = {
+  name: "himanshu",
+  age: 21,
+};
+
+function add(num1) {
+  if (typeof num1 === "object")
+    console.log(`My name is ${num1.name} and age is ${num1.age}`);
+  else return "enter an object";
+}
+
+console.log(add(5));
