@@ -15,3 +15,17 @@ function add(num1) {
 }
 
 console.log(add(5));
+
+console.log(foo())
+
+function foo()
+{
+   return "hello"
+}
+
+console.log(addTwo(5));
+
+const addTwo = function(num){
+  return num + 2
+}
+
