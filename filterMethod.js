@@ -1,5 +1,6 @@
 //Filter method 
 // the filter method is always return a new array and the original array is not change 
+// the filter returns the value in true or false 
 
 const myNums = [1,2,3,4,5,6,7,8,9]
 
