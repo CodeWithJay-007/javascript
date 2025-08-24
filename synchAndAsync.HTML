@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <button id="stop">Click Me</button>
+</body>
+
+<script>
+    const MyName = function() {
+        console.log("Jay Kartela");
+    };
+    const chnageText = function() {
+        document.querySelector('h1').innerHTML = "Best of Luck";
+    };
+    // The setTimeout method means it will execute after 2 seconds
+    // setTimeout(MyName, 2000);
+     const set1 = setTimeout(chnageText, 2000);
+     
+    document.querySelector('#stop').addEventListener('click', function() {
+        clearTimeout(set1);
+        console.log("The setTimeout is stopped");});
+</script>
+
+</html>
